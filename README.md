@@ -1,23 +1,27 @@
 # Contrastive Transformation for Self-supervised Correspondence Learning
 
-# Prerequisites
+Ning Wang, Wengang Zhou, and Houqiang Li 
+
+To appear in *AAAI 2021*
+
+## Prerequisites
 The code is tested in the following environment:
 - Ubuntu 16.04
 - Pytorch 1.1.0, [tqdm](https://github.com/tqdm/tqdm), scipy 1.2.1
 
-# Training on TrackingNet
+## Training on the TrackingNet
 
-## Dataset
+### Dataset
 
-We use the [TrackingNet dataset](https://tracking-net.org/) for training.
+We use the [TrackingNet dataset](https://tracking-net.org/) for model training.
 
-## Training command
+### Training command
 
 ```
 python train_trackingnet.py 
 ```
 
-# Testing on DAVIS2017
+## Testing on DAVIS2017
 To test on DAVIS2017 for instance segmentation mask propagation, please run:
 ```
 python test.py -d /workspace/DAVIS/ -s 560
@@ -30,7 +34,7 @@ Important parameters:
 
 Please check the `test.py` file for other parameters.
 
-# Testing on the VIP dataset
+## Testing on the VIP dataset
 
 To test on VIP, please run the following command with your own VIP path:
 
@@ -42,5 +46,17 @@ and then:
 python eval_vip.py -g DATA/VIP/VIP_Fine/Annotations/Category_ids/ -p results/VIP/category/
 ````
 
-# Acknowledgements
+## Citation
+If you find this work useful for your research, please consider citing our work:
+
+```
+@inproceedings{Wang_2021_Contrastive,
+    title={Unsupervised Deep Tracking},
+    author={Wang, Ning and Zhou, Wengang and Li, Houqiang},
+    booktitle={AAAI},
+    year={2021}
+}
+```
+
+## Acknowledgements
 - This code is based on [UVC](https://github.com/Liusifei/UVC) and [TimeCycle](https://github.com/xiaolonw/TimeCycle).
