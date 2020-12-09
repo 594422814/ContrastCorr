@@ -4,6 +4,8 @@ Ning Wang, Wengang Zhou, and Houqiang Li
 
 To appear in *AAAI 2021*
 
+![](../main/ContrastCorr.png)
+
 ## Prerequisites
 The code is tested in the following environment:
 - Ubuntu 16.04
