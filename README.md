@@ -59,4 +59,4 @@ If you find this work useful for your research, please consider citing our work:
 ```
 
 ## Acknowledgements
-- This code is based on [UVC](https://github.com/Liusifei/UVC) and [TimeCycle](https://github.com/xiaolonw/TimeCycle).
+- This code is based on the [UVC](https://github.com/Liusifei/UVC) and [TimeCycle](https://github.com/xiaolonw/TimeCycle).
