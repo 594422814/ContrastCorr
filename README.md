@@ -53,7 +53,7 @@ If you find this work useful for your research, please consider citing our work:
 
 ```
 @inproceedings{Wang_2021_Contrastive,
-    title={Unsupervised Deep Tracking},
+    title={Contrastive Transformation for Self-supervised Correspondence Learning},
     author={Wang, Ning and Zhou, Wengang and Li, Houqiang},
     booktitle={AAAI},
     year={2021}
